@@ -24,7 +24,8 @@ public class ImageAdapter extends ArrayAdapter<Integer> {
     }
 
     public View getView(int position, View convertView, ViewGroup parent) {
-
+        // Function return a list_item with imageView and textView
+        // The image only one, so it load right here
         View view = inflater.inflate(this.layout, parent, false);
 
         ImageView img = (ImageView)view.findViewById(R.id.img);
@@ -32,6 +33,8 @@ public class ImageAdapter extends ArrayAdapter<Integer> {
 
         Integer num = nums[position];
 
+        // here build a list_item
+        // osel - a name of picture
         img.setImageResource(R.drawable.osel);
         txt.setText(num.toString());
 
