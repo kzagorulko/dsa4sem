@@ -18,7 +18,7 @@ public class SecondActivity extends AppCompatActivity {
         // initialize a array
         numbers = new Integer[1000000];
         for(int i = 0; i < 1000000; i++) {
-            numbers[i] = i;
+            numbers[i] = i + 1;
         }
 
         // find list
