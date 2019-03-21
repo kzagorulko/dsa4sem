@@ -38,7 +38,7 @@ public class ImageAdapter extends ArrayAdapter<Integer> {
         // osel - a name of the picture
         img.setImageResource(R.drawable.osel);
         txt.setText(this.buildNumber(num));
-        view.setBackgroundColor(position % 2 == 0 ? 0x999999 : 0xFFFFFFFF);
+        view.setBackgroundColor(position % 2 == 0 ? 0xCCCCCC : 0xFFFFFFFF);
 
         return view;
 
