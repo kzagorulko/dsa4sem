@@ -28,6 +28,4 @@ public class SecondActivity extends AppCompatActivity {
         lvMain.setAdapter(imageAdapter);
 
     }
-
-
 }
